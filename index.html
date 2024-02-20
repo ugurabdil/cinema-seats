@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen"></div>
+      <div class="row">
+        <div class="seat no">A</div>
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat reserve">7</div>
+        <div class="seat reserve">8</div>
+      </div>
+      <div class="row">
+        <div class="seat no">B</div>
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+      </div>
+      <div class="row">
+        <div class="seat no">C</div>
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+      </div>
+      <div class="row">
+        <div class="seat no">D</div>
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+      </div>
+      <div class="row">
+        <div class="seat no">E</div>
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+      </div>
+      <div class="row">
+        <div class="seat no">F</div>
+        <div class="seat">1</div>
+        <div class="seat reserve">2</div>
+        <div class="seat reserve">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+      </div>
+      <div class="row">
+        <div class="seat no">G</div>
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+      </div>
+      <div class="row">
+        <div class="seat no">H</div>
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+      </div>
+    </div>
+
+    <div class="movie-list">
+      <select id="movie">
+        <option disabled>Film Seçiniz</option>
+        <option value="120">movie 1</option>
+        <option value="100">movie 2</option>
+        <option value="150">movie 3</option>
+      </select>
+    </div>
+    <ul class="info">
+      <li>
+        <div class="seat selected"></div>
+        <small>Seçili</small>
+      </li>
+      <li>
+        <div class="seat"></div>
+        <small>Boş</small>
+      </li>
+      <li>
+        <div class="seat reserve"></div>
+        <small>Dolu</small>
+      </li>
+    </ul>
+    <p class="text">
+      <span id="count"></span> adet koltuk için hesaplanan ücret
+      <span id="amount"> TL</span>
+    </p>
+    <script src="app.js"></script>
+  </body>
+</html>
